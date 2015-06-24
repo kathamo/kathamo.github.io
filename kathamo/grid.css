@@ -56,7 +56,10 @@
 .container .row { width: 100% }
 .container-fluid .row { width: 100% }
 
+/* Large Grid (1024 px)
+================================================== */
 @media (min-width: 1024px) {
+
 .container { max-width: 1024px }
 
 .container .row .col-lg-1 { width: 6.333333333% }
@@ -84,10 +87,13 @@
 .container-fluid .row .col-lg-10 { width: 81.333333333% }
 .container-fluid .row .col-lg-11 { width: 89.666666667% }
 .container-fluid .row .col-lg-12 { width: 98% }
+
 }
 
+/* Medium Grid (768 px)
+================================================== */
 @media (min-width: 768px) and (max-width: 1023px){
-.container { max-width: 767px }
+.container { max-width: 768px }
 
 .container .row .col-md-1 { width: 6.333333333% }
 .container .row .col-md-2 { width: 14.666666667% }
@@ -116,6 +122,8 @@
 .container-fluid .row .col-md-12 { width: 98% }
 }
 
+/*  Small Grid (320 px)
+================================================== */
 @media (max-width: 767px) {
 .container { max-width: 100% }
 
@@ -150,6 +158,7 @@
 /*  Offset
 ================================================== */
 @media (min-width: 1024px) {
+
 .container .row .col-lg-offset-1 { margin-left: 8.333333333% }
 .container .row .col-lg-offset-2 { margin-left: 16.666666667% }
 .container .row .col-lg-offset-3 { margin-left: 25% }
@@ -178,6 +187,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
+
 .container .row .col-md-offset-1 { margin-left: 8.333333333% }
 .container .row .col-md-offset-2 { margin-left: 16.666666667% }
 .container .row .col-md-offset-3 { margin-left: 25% }
@@ -206,6 +216,7 @@
 }
 
 @media (max-width: 767px) {
+
 .container .row .col-sm-offset-1 { margin-left: 8.333333333% }
 .container .row .col-sm-offset-2 { margin-left: 16.666666667% }
 .container .row .col-sm-offset-3 { margin-left: 25% }
