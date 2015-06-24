@@ -21,10 +21,10 @@ All the files in this repository are [MIT](https://github.com/kathamo/Kathamo/bl
 ##Documentation
 Kathamo documentation is available with latest version of Kathamo.
 
-#Examples
+##Examples
 
 Here are some website that uses Kathamo as basic framework for development : [Knowledge Exchange Network](http://www.kenmanipur.org), [One Man Design](http://onemandesign.github.io), [Dr. Surajit Barman's Homepage](http://www.surajitbarman.in) and [Debashis Barman's Homepage](http://www.debashisbarman.in)
 
-#Feedback
+##Feedback
 
 Please provide [feedback](mailto:kathamo.framework@gmail.com) for better development of Kathamo.
